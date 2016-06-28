@@ -27,7 +27,7 @@
     },
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "bower-asset/leaflet": "1.0.*@dev"
+        "bower-asset/leaflet": "~1.0@RC"
     },
     "replace": {
         "2amigos/yii2-leaflet-extension": "1.0.*"
