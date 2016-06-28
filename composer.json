@@ -40,6 +40,12 @@
             "futuretek\\leaflet\\": "src"
         }
     },
+    "repositories": [
+        {
+            "url": "http://composer.futuretek.cz/repo/private/",
+            "type": "composer"
+        }
+    ],
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
