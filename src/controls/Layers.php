@@ -4,12 +4,12 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet\controls;
+namespace futuretek\leaflet\controls;
 
 
-use dosamigos\leaflet\layers\LayerGroup;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\LeafLet;
+use futuretek\leaflet\layers\LayerGroup;
+use futuretek\leaflet\layers\TileLayer;
+use futuretek\leaflet\LeafLet;
 use yii\base\InvalidParamException;
 use yii\helpers\Json;
 use yii\web\JsExpression;
@@ -21,12 +21,12 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\controls
+ * @package futuretek\leaflet\controls
  */
 class Layers extends Control
 {
     /**
-     * @var \dosamigos\leaflet\layers\TileLayer[]
+     * @var \futuretek\leaflet\layers\TileLayer[]
      */
     private $_baseLayers = [];
 
@@ -46,7 +46,7 @@ class Layers extends Control
     }
 
     /**
-     * @return \dosamigos\leaflet\layers\TileLayer[]
+     * @return \futuretek\leaflet\layers\TileLayer[]
      */
     public function getBaseLayers()
     {
@@ -67,12 +67,12 @@ class Layers extends Control
     }
 
     /**
-     * @var \dosamigos\leaflet\layers\Layer[]
+     * @var \futuretek\leaflet\layers\Layer[]
      */
     private $_overlays = [];
 
     /**
-     * @param \dosamigos\leaflet\layers\LayerGroup[] $overlays
+     * @param \futuretek\leaflet\layers\LayerGroup[] $overlays
      *
      * @throws \yii\base\InvalidParamException
      */
@@ -87,7 +87,7 @@ class Layers extends Control
     }
 
     /**
-     * @return \dosamigos\leaflet\layers\Layer[]
+     * @return \futuretek\leaflet\layers\Layer[]
      */
     public function getOverlays()
     {
@@ -101,7 +101,7 @@ class Layers extends Control
     {
         $overlays = [];
         /**
-         * @var \dosamigos\leaflet\layers\LayerGroup $overlay
+         * @var \futuretek\leaflet\layers\LayerGroup $overlay
          */
         foreach ($this->getOverlays() as $key => $overlay) {
             $overlays[$key] = $overlay->oneLineEncode();

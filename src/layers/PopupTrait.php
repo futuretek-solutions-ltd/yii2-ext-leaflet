@@ -10,7 +10,7 @@
  * @link http://www.2amigos.us/
  */
 
-namespace dosamigos\leaflet\layers;
+namespace futuretek\leaflet\layers;
 
 
 trait PopupTrait

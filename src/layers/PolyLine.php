@@ -5,11 +5,11 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\layers;
+namespace futuretek\leaflet\layers;
 
-use dosamigos\leaflet\LeafLet;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\types\LatLngBounds;
+use futuretek\leaflet\LeafLet;
+use futuretek\leaflet\types\LatLng;
+use futuretek\leaflet\types\LatLngBounds;
 use yii\base\InvalidParamException;
 use yii\helpers\Json;
 use yii\web\JsExpression;
@@ -18,7 +18,7 @@ use yii\web\JsExpression;
  * PolyLine is a class for drawing a polygon overlay on the map.
  *
  * @see http://leafletjs.com/reference.html#polyline
- * @package dosamigos\leaflet\layers
+ * @package futuretek\leaflet\layers
  */
 /**
  * @property string $name
@@ -55,7 +55,7 @@ class PolyLine extends Layer
     }
 
     /**
-     * @return \dosamigos\leaflet\types\LatLng[]
+     * @return \futuretek\leaflet\types\LatLng[]
      */
     public function getLatLngs()
     {

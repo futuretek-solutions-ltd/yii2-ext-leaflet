@@ -2,8 +2,8 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\Popup;
-use dosamigos\leaflet\types\LatLng;
+use futuretek\leaflet\layers\Popup;
+use futuretek\leaflet\types\LatLng;
 
 /**
  * @group layers

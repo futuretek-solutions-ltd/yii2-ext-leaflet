@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\layers;
+namespace futuretek\leaflet\layers;
 
 
 use yii\base\InvalidConfigException;
@@ -18,7 +18,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\layers
+ * @package futuretek\leaflet\layers
  */
 class TileLayer extends Layer
 {

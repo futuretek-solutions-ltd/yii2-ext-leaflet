@@ -4,15 +4,15 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet;
+namespace futuretek\leaflet;
 
-use dosamigos\leaflet\controls\Control;
-use dosamigos\leaflet\layers\Layer;
-use dosamigos\leaflet\layers\LayerGroup;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\layers\Polygon;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\widgets\Map;
+use futuretek\leaflet\controls\Control;
+use futuretek\leaflet\layers\Layer;
+use futuretek\leaflet\layers\LayerGroup;
+use futuretek\leaflet\layers\TileLayer;
+use futuretek\leaflet\layers\Polygon;
+use futuretek\leaflet\types\LatLng;
+use futuretek\leaflet\widgets\Map;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;
@@ -20,7 +20,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * Class LeafLet
- * @package dosamigos\leaflet
+ * @package futuretek\leaflet
  */
 
 /**
@@ -100,7 +100,7 @@ class LeafLet extends Component
     private $_controls = [];
 
     /**
-     * @param \dosamigos\leaflet\controls\Control[] $controls
+     * @param \futuretek\leaflet\controls\Control[] $controls
      *
      * @throws \yii\base\InvalidParamException
      */
@@ -115,7 +115,7 @@ class LeafLet extends Component
     }
 
     /**
-     * @return \dosamigos\leaflet\controls\Control[]
+     * @return \futuretek\leaflet\controls\Control[]
      */
     public function getControls()
     {
@@ -131,12 +131,12 @@ class LeafLet extends Component
     }
 
     /**
-     * @var \dosamigos\leaflet\layers\TileLayer
+     * @var \futuretek\leaflet\layers\TileLayer
      */
     private $_tileLayer;
 
     /**
-     * @param \dosamigos\leaflet\layers\TileLayer $tileLayer
+     * @param \futuretek\leaflet\layers\TileLayer $tileLayer
      *
      * @return static the component itself
      */
@@ -154,7 +154,7 @@ class LeafLet extends Component
     }
 
     /**
-     * @return \dosamigos\leaflet\layers\TileLayer
+     * @return \futuretek\leaflet\layers\TileLayer
      */
     public function getTileLayer()
     {

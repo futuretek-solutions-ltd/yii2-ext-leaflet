@@ -2,10 +2,10 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\ImageOverlay;
-use dosamigos\leaflet\layers\Marker;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\types\LatLngBounds;
+use futuretek\leaflet\layers\ImageOverlay;
+use futuretek\leaflet\layers\Marker;
+use futuretek\leaflet\types\LatLng;
+use futuretek\leaflet\types\LatLngBounds;
 
 /**
  * @group layers

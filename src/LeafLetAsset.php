@@ -4,7 +4,7 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet;
+namespace futuretek\leaflet;
 
 use yii\web\AssetBundle;
 
@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  *        // ...
  *        'components' => [
  *            'bundles' => [
- *                'dosamigos\leaftlet\LeafLetAsset' => [
+ *                'futuretek\leaftlet\LeafLetAsset' => [
  *                    'sourcePath' => null,
  *                    'js' => [ 'http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js' ],
  *                    'css' => [ 'http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css' ]
@@ -29,7 +29,7 @@ use yii\web\AssetBundle;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet
+ * @package futuretek\leaflet
  */
 class LeafLetAsset extends AssetBundle
 {

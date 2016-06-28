@@ -4,7 +4,7 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet\types;
+namespace futuretek\leaflet\types;
 
 use yii\base\Component;
 
@@ -14,7 +14,7 @@ use yii\base\Component;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\types
+ * @package futuretek\leaflet\types
  */
 abstract class Type extends Component
 {

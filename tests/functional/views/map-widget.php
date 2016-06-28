@@ -1,9 +1,9 @@
 <?php
-use dosamigos\leaflet\layers\Marker;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\LeafLet;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\widgets\Map;
+use futuretek\leaflet\layers\Marker;
+use futuretek\leaflet\layers\TileLayer;
+use futuretek\leaflet\LeafLet;
+use futuretek\leaflet\types\LatLng;
+use futuretek\leaflet\widgets\Map;
 use yii\web\JsExpression;
 /* @var $this yii\web\View */
 ?>

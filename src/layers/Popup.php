@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\layers;
+namespace futuretek\leaflet\layers;
 
 use yii\base\InvalidConfigException;
 use yii\web\JsExpression;
@@ -15,11 +15,11 @@ use yii\web\JsExpression;
  * object (ie [[Marker]]) better use their `popup` attribute.
  *
  * @see http://leafletjs.com/reference.html#popup
- * @package dosamigos\leaflet\layers
+ * @package futuretek\leaflet\layers
  */
 
 /**
- * @property \dosamigos\leaflet\types\LatLng $latLng
+ * @property \futuretek\leaflet\types\LatLng $latLng
  */
 class Popup extends Layer
 {

@@ -2,8 +2,8 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\CircleMarker;
-use dosamigos\leaflet\types\LatLng;
+use futuretek\leaflet\layers\CircleMarker;
+use futuretek\leaflet\types\LatLng;
 
 /**
  * @group layers

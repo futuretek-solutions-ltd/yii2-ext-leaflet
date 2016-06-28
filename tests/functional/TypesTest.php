@@ -2,12 +2,12 @@
 
 namespace tests;
 
-use dosamigos\leaflet\types\Bounds;
-use dosamigos\leaflet\types\DivIcon;
-use dosamigos\leaflet\types\Icon;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\types\LatLngBounds;
-use dosamigos\leaflet\types\Point;
+use futuretek\leaflet\types\Bounds;
+use futuretek\leaflet\types\DivIcon;
+use futuretek\leaflet\types\Icon;
+use futuretek\leaflet\types\LatLng;
+use futuretek\leaflet\types\LatLngBounds;
+use futuretek\leaflet\types\Point;
 
 /**
  * @group types

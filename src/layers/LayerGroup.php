@@ -4,7 +4,7 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet\layers;
+namespace futuretek\leaflet\layers;
 
 
 use yii\base\Component;
@@ -20,7 +20,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\layers
+ * @package futuretek\leaflet\layers
  */
 class LayerGroup extends Component
 {
@@ -120,7 +120,7 @@ class LayerGroup extends Component
         $map = $this->map;
         $layers = $this->getLayers();
         $layersJs = [];
-        /** @var \dosamigos\leaflet\layers\Layer $layer */
+        /** @var \futuretek\leaflet\layers\Layer $layer */
         foreach ($layers as $layer) {
             $layer->name = null;
             $layersJs[] = $layer->encode();

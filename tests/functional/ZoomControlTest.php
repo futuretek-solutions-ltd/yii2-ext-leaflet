@@ -2,7 +2,7 @@
 
 namespace tests;
 
-use dosamigos\leaflet\controls\Zoom;
+use futuretek\leaflet\controls\Zoom;
 
 /**
  * @group controls

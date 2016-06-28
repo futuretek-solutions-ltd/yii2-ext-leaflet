@@ -1,8 +1,8 @@
 <?php
-use dosamigos\leaflet\layers\Marker;
-use dosamigos\leaflet\layers\TileLayer;
-use dosamigos\leaflet\LeafLet;
-use dosamigos\leaflet\types\LatLng;
+use futuretek\leaflet\layers\Marker;
+use futuretek\leaflet\layers\TileLayer;
+use futuretek\leaflet\LeafLet;
+use futuretek\leaflet\types\LatLng;
 use yii\web\JsExpression;
 use tests\TestPlugin;
 

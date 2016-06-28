@@ -2,10 +2,10 @@
 namespace tests;
 
 
-use dosamigos\leaflet\layers\LayerGroup;
-use dosamigos\leaflet\layers\Marker;
-use dosamigos\leaflet\layers\Popup;
-use dosamigos\leaflet\types\LatLng;
+use futuretek\leaflet\layers\LayerGroup;
+use futuretek\leaflet\layers\Marker;
+use futuretek\leaflet\layers\Popup;
+use futuretek\leaflet\types\LatLng;
 use yii\web\JsExpression;
 
 /**

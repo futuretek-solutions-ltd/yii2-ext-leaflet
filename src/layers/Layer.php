@@ -4,11 +4,11 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\leaflet\layers;
+namespace futuretek\leaflet\layers;
 
-use dosamigos\leaflet\LeafLet;
+use futuretek\leaflet\LeafLet;
 use yii\base\Component;
-use dosamigos\leaflet\types\Type;
+use futuretek\leaflet\types\Type;
 use yii\helpers\Json;
 
 /**
@@ -16,7 +16,7 @@ use yii\helpers\Json;
  *
  * @property string $name
  *
- * @package dosamigos\leaflet\layers
+ * @package futuretek\leaflet\layers
  */
 abstract class Layer extends Component
 {

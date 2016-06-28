@@ -5,13 +5,13 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\types;
+namespace futuretek\leaflet\types;
 
 
 /**
  * Arrayable should be implemented by classes that need to be represented in array format.
  *
- * @package dosamigos\leaflet\types
+ * @package futuretek\leaflet\types
  */
 interface ArrayableInterface
 {

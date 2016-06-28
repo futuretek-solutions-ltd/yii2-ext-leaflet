@@ -5,9 +5,9 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\types;
+namespace futuretek\leaflet\types;
 
-use dosamigos\leaflet\LeafLet;
+use futuretek\leaflet\LeafLet;
 use yii\base\InvalidConfigException;
 use yii\helpers\Json;
 use yii\web\JsExpression;
@@ -23,7 +23,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\types
+ * @package futuretek\leaflet\types
  */
 class Point extends Type implements ArrayableInterface
 {

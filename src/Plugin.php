@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet;
+namespace futuretek\leaflet;
 
 use yii\base\Component;
 use yii\helpers\Json;
@@ -20,7 +20,7 @@ use yii\helpers\Json;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet
+ * @package futuretek\leaflet
  */
 abstract class Plugin extends Component
 {

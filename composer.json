@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-leaflet-extension",
+    "name": "futuretek/yii2-leaflet-extension",
     "description": "LeafLet Mobile-Friendly Interactive Maps Extension Library for Yii2.",
     "type": "yii2-extension",
     "keywords": [
@@ -27,14 +27,14 @@
     },
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "bower-asset/leaflet": "0.7.*@stable"
+        "bower-asset/leaflet": "1.0.*@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*"
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\leaflet\\": "src"
+            "futuretek\\leaflet\\": "src"
         }
     },
     "extra": {

@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace dosamigos\leaflet\controls;
+namespace futuretek\leaflet\controls;
 
 use yii\web\JsExpression;
 
@@ -17,7 +17,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\leaflet\controls
+ * @package futuretek\leaflet\controls
  */
 class Zoom extends Control
 {

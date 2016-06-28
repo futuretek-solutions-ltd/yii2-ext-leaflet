@@ -2,9 +2,9 @@
 
 namespace tests;
 
-use dosamigos\leaflet\layers\Polygon;
-use dosamigos\leaflet\types\LatLng;
-use dosamigos\leaflet\types\LatLngBounds;
+use futuretek\leaflet\layers\Polygon;
+use futuretek\leaflet\types\LatLng;
+use futuretek\leaflet\types\LatLngBounds;
 
 /**
  * @group layers
