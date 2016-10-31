@@ -26,8 +26,8 @@
         "source": "https://github.com/2amigos/yii2-leaflet-extension"
     },
     "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "bower-asset/leaflet": "~1.0@RC"
+        "yiisoft/yii2": "^2.0.0",
+        "bower-asset/leaflet": "1.0.*"
     },
     "replace": {
         "2amigos/yii2-leaflet-extension": "1.0.*"
@@ -42,14 +42,11 @@
     },
     "repositories": [
         {
-            "url": "http://composer.futuretek.cz/repo/private/",
+            "url": "https://composer.futuretek.cz/repo/private/",
             "type": "composer"
         }
     ],
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        },
         "asset-installer-paths": {
             "bower-asset-library": "vendor/bower"
         }
